@@ -1,17 +1,17 @@
 [
     {
-        "Name": "Rice",
-        "Weight": "10",
-        "Price": "100"
+        "StockName": "Wipro",
+        "NumOfShares": "100",
+        "SharePrice": "100090"
     },
     {
-        "Name": "Pulses",
-        "Weight": "20",
-        "Price": "200"
+        "StockName": "Infosys",
+        "NumOfShares": "2000",
+        "SharePrice": "10000"
     },
     {
-        "Name": "Wheat",
-        "Weight": "30",
-        "Price": "300"
+        "StockName": "Cognizant",
+        "NumOfShares": "309",
+        "SharePrice": "1000909"
     }
 ]

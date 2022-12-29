@@ -6,8 +6,8 @@ namespace JsonInventoy
 {
     public class Model
     {
-        public string Name { get; set; }
-        public int Weight { get; set; }
-        public int Price { get; set; }
+        public string StockName { get; set; }
+        public int NumOfShare { get; set; }
+        public int SharePrice { get; set; }
     }
 }

@@ -18,11 +18,12 @@ namespace JsonInventoy
             {
                 var json = reader.ReadToEnd();
                 var items = JsonConvert.DeserializeObject<List<Model>>(json);
-                Console.WriteLine("Name Weight Price TotalValue");
+                // Console.WriteLine("Name Weight Price TotalValue");
+                Console.WriteLine("StockName NumOfShare SharePrice TotalValueOfStock");
                 foreach (var item in items)
                 {
-                    double value = item.Price * item.Weight;
-                    Console.WriteLine(item.Name + " " + item.Weight + " " + item.Price + " " + value);
+                    double value = item.SharePrice * item.NumOfShare;
+                    Console.WriteLine(item.StockName + " " + item.NumOfShare + " " + item.SharePrice + " " + value);
                 }
             }
     }  }
